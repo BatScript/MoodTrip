@@ -1,0 +1,19 @@
+.featureContainer{
+    margin: 100px auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    place-content: center;
+    place-items: center;
+    .feature{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span{
+            margin-top: 10px;
+            font-size: 1.3rem;
+        }
+    }
+}
