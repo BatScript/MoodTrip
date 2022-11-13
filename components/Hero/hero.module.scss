@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import "/styles/partials/mixins";
+
+.globeContainer{
+    position: relative;
+    overflow-x: clip;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #7FCBAE;
+    .hero{
+        width: 40%;
+        h1{
+            margin: 0;
+            padding: 35px 0 0 35px;
+            font-size: 3rem;
+            color: white;
+            font-family: 'Bungee', cursive;
+            z-index: 2;
+            text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+            @include mobile {
+                font-size: 1.5rem;
+            }
+        }
+    }
+    img{
+        width: 50%;
+        position: absolute;
+        left: 52%;
+        top: -10px;
+        animation:spin 20s linear infinite;
+        z-index: 1;
+        @include mobile {
+            width: 120%;
+            top: -25%;
+        }
+    }
+    .customButton{
+        margin: 50px 30px !important;
+    }
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}

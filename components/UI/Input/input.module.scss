@@ -1,0 +1,28 @@
+.inputContainer {
+    width: 100%;
+    input {
+        padding: 1rem;
+        outline-style: solid;
+        border: 2px solid transparent;
+        outline-width: 2px;
+        outline-color: #1C6758;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+    }
+    .suggestions{
+        padding: 0;
+        margin-top: 0;
+        box-shadow: 2px 2px 11px -1px rgba(0,0,0,0.45);
+        li{
+            display: flex;
+            align-items: center;
+            padding-left: 0.6rem;
+            img{
+                margin: 0 10px 0 0;
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
