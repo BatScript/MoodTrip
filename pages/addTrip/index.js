@@ -1,17 +1,17 @@
-import React from 'react'
-import Footer from '../../components/Footer'
-import Navbar from '../../components/NavBar'
-import Input from '../../components/UI/Input'
-import Form from './Form'
+import React from "react";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/NavBar";
+import Form from "./Form";
+import Head from "next/head";
 
 const AddTrip = () => {
-  return (
+    return (
       <div>
           <Navbar />
           <Form />
           <Footer />
       </div>
-  )
-}
+    );
+};
 
-export default AddTrip
+export default AddTrip;
