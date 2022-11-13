@@ -8,7 +8,7 @@ import Navbar from '../components/NavBar';
 
 const index = () => {
   return (
-    <div>
+    <div className='homeContainer'>
       <Head>
         <title>MoodTrip</title>
       </Head>
