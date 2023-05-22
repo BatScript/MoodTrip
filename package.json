@@ -7,8 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install",
-    "scriptname": "husky install",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -34,7 +32,6 @@
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.5",
-    "eslint-plugin-storybook": "^0.6.7",
-    "husky": "^8.0.1"
+    "eslint-plugin-storybook": "^0.6.7"
   }
 }
