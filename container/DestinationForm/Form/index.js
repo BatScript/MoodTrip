@@ -28,17 +28,16 @@ const Form = () => {
     })
 
     map.addControl(new tt.FullscreenControl())
-    // new tt.Popup({ className: "tt-popup" }).setLngLat(LOCATION).setHTML("Click anywhere on the map to lookup the clicked lat lon.").addTo(map);
-    map.on('click', function (event) {
-      var lngLat = new tt.LngLat(
-        roundLatLng(event.lngLat.lng),
-        roundLatLng(event.lngLat.lat)
-      )
-      new tt.Popup({ className: 'tt-popup' })
-        .setLngLat(lngLat)
-        .setHTML(lngLat.toString())
-        .addTo(map)
-    })
+    // map.on('click', function (event) {
+    //   var lngLat = new tt.LngLat(
+    //     roundLatLng(event.lngLat.lng),
+    //     roundLatLng(event.lngLat.lat)
+    //   )
+    //   new tt.Popup({ className: 'tt-popup' })
+    //     .setLngLat(lngLat)
+    //     .setHTML(lngLat.toString())
+    //     .addTo(map)
+    // })
   }
 
   const getValue = (data) => {

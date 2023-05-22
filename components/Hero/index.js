@@ -3,7 +3,7 @@ import styles from './hero.module.scss'
 import Image from 'next/image'
 import Button from '../UI/Button'
 import Link from 'next/link'
-import { Shantell_Sans } from '@next/font/google'
+import { Shantell_Sans } from "next/font/google"
 import Navbar from '../NavBar'
 const shantell = Shantell_Sans({
   subsets: ['latin'],

@@ -13,7 +13,6 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@next/font": "^13.4.3",
     "@tomtom-international/web-sdk-maps": "^6.21.3",
     "@tomtom-international/web-sdk-services": "^6.21.3",
     "eslint": "8.26.0",

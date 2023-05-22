@@ -6,8 +6,8 @@ import Image from 'next/legacy/image'
 
 const StepOne = ({ getValue, listData, buttonClick }) => {
   return (
-    <div className='d-flex'>
-      <div className='p-rel w-half'>
+    <div className='d-flex h-full'>
+      <div className='pos-rel w-half'>
         <Image
           src={
             'https://i.ibb.co/mTbN9FN/HD-wallpaper-studio-ghibli-upscaled-arrietty-r-ghibli-winter.jpg'
