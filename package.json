@@ -13,11 +13,15 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@next/font": "^13.4.3",
+    "@tomtom-international/web-sdk-maps": "^6.21.3",
+    "@tomtom-international/web-sdk-services": "^6.21.3",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.1",
-    "next": "13.0.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "framer-motion": "^10.12.12",
+    "next": "^13.4.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.55.0"
   },
   "devDependencies": {

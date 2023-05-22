@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
 
-.navbarContainer{
-    display: flex;
-    justify-content: space-between;
-    background-color: #1C6758;
-    .logo{
-        color: white;
-        font-family: 'Cabin Sketch', cursive;
-        font-size: 2rem;
-        padding-left: 10px;
-    }
+.navbarContainer {
+  //   position: absolute;
+  //   top: 0;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  .logo {
+    // color: white;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2rem;
+    padding-left: 10px;
+  }
 }

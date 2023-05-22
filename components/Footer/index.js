@@ -3,10 +3,8 @@ import styles from './footer.module.scss'
 
 const Footer = () => {
   return (
-      <footer className={styles.footer}>
-          <p>
-              2022 Mohit
-          </p>
+    <footer className={styles.footer}>
+      <p>2022 Mohit</p>
     </footer>
   )
 }

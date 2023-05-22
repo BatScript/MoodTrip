@@ -1,0 +1,21 @@
+@use 'sass:math';
+@import './util-array/util-data';
+// its like nested array utilities = [display: ['none', 'flex'], margin: [1, 2, 3]] and
+// down below is a nested loop to create classes in scss where it goes like
+// .--prefix-- {--property-- : --value--} and in case of default, it doesn't append the values
+@each $property, $map in $utilities {
+  $prefix: map-get($map, 'prefix');
+  $values: map-get($map, 'values');
+
+  @each $k, $v in $values {
+    @if ($k == 'default') {
+      .#{$prefix} {
+        #{$property}: $v;
+      }
+    } @else {
+      .#{$prefix}-#{$k} {
+        #{$property}: $v;
+      }
+    }
+  }
+}

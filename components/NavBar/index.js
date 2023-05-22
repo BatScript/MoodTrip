@@ -1,11 +1,14 @@
-import React from 'react';
-import style from './navbar.module.scss';
+import Link from 'next/link'
+import React from 'react'
+import style from './navbar.module.scss'
 
 const Navbar = () => {
   return (
-      <div className={style.navbarContainer}>
+    <div className={style.navbarContainer}>
+      <Link href={'/'}>
         <h1 className={style.logo}>MoodTrip</h1>
-      </div>
+      </Link>
+    </div>
   )
 }
 
